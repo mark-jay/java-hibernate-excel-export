@@ -17,5 +17,6 @@
         <mapping class="kz.innoforce.entities.Country"></mapping>
         <mapping class="kz.innoforce.entities.Type"></mapping>
         <mapping class="kz.innoforce.entities.Unit"></mapping>
+        <mapping class="kz.innoforce.entities.Data"></mapping>
     </session-factory>
 </hibernate-configuration>

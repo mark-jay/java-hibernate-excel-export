@@ -1,13 +1,12 @@
 package kz.innoforce.entities.base;
 
-import javax.persistence.MappedSuperclass;
+import java.io.Serializable;
 
 /**
  * @author magzhan.karasayev
  * @since 12/3/14 6:34 PM
  */
-@MappedSuperclass
-public class BaseEntity {
+public class BaseEntity implements Serializable {
     private int id;
 
     public BaseEntity() {
