@@ -35,4 +35,9 @@ public class BaseDict extends BaseEntity {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return String.format("(BE %s: %s -> %s)", getClass().getSimpleName(), getId(), getName());
+    }
 }
